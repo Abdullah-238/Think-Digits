@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.pgGameInfo"
+             Loaded="ContentPage_Loaded"
+             NavigationPage.HasBackButton="False">
+
+    <ScrollView>
+        <StackLayout Padding="24" Spacing="30" VerticalOptions="CenterAndExpand">
+
+            <Label Text="Game Summary"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="20"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+
+                <Grid RowSpacing="15" ColumnSpacing="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Result:" Grid.Row="0" />
+                    <Label x:Name="lbFinalResult" Text="0" Grid.Row="0" Grid.Column="1" />
+
+                    <Label Text="Questions:" Grid.Row="1" />
+                    <Label x:Name="lbNumberOfQuesations" Text="0" Grid.Row="1" Grid.Column="1" />
+
+                    <Label Text="Level:" Grid.Row="2" />
+                    <Label x:Name="lbQuesationLevel" Text="0" Grid.Row="2" Grid.Column="1" />
+
+                    <Label Text="Operation:" Grid.Row="3" />
+                    <Label x:Name="lbOperationLevel" Text="0" Grid.Row="3" Grid.Column="1" />
+
+                    <Label Text="Correct Answers:" Grid.Row="4" />
+                    <Label x:Name="lbRigthQuesation" Text="0" Grid.Row="4" Grid.Column="1" />
+
+                    <Label Text="Wrong Answers:" Grid.Row="5" />
+                    <Label x:Name="lbWrongQuesation" Text="0" Grid.Row="5" Grid.Column="1" />
+                </Grid>
+            </Border>
+
+            <Button Text="Restart Game"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="Button_Clicked" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

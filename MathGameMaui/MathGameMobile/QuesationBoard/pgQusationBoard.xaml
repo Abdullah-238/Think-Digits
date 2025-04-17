@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.pgQusationBoard"
+             NavigationPage.HasBackButton="False"
+             Loaded="ContentPage_Loaded">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     Padding="24"
+                     HorizontalOptions="FillAndExpand"
+                     Spacing="20">
+
+            <Label Text="Quiz"
+                   FontSize="40"
+                   TextTransform="Uppercase"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="4">
+                <Label Text="Question:" FontSize="Medium" />
+                <Label x:Name="lbQuesationNumber" Text="N" FontSize="Medium" />
+                <Label Text="/" FontSize="Medium" />
+                <Label x:Name="lbNumberOfQuesation" Text="N" FontSize="Medium" />
+            </HorizontalStackLayout>
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="16"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+                <VerticalStackLayout Spacing="16" HorizontalOptions="Center">
+
+                    <Label x:Name="lbNum1" Text="0" FontSize="36" HorizontalTextAlignment="Center" />
+
+                    <HorizontalStackLayout Spacing="30" HorizontalOptions="Center">
+                        <Label x:Name="lbOperation" Text="+" FontSize="36" />
+                        <Label x:Name="lbNum2" Text="0" FontSize="36" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Label Text="Please enter your answer:"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center" />
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="6"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+                <Entry x:Name="enInput"
+                       Placeholder="Your answer"
+                       Keyboard="Numeric"
+                       ReturnType="Done"
+                       MaxLength="50"
+                       FontSize="Medium"
+                       HorizontalTextAlignment="Center" />
+            </Border>
+
+            <Button Text="Check"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="Button_Clicked" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

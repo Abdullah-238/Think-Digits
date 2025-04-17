@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C_Sharp\\MathGameMobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|d:\\c_sharp\\mathgamemobile\\mathgamemobile\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|solutionrelative:mathgamemobile\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|d:\\c_sharp\\mathgamemobile\\mathgamemobile\\main\\pgmainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|solutionrelative:mathgamemobile\\main\\pgmainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|d:\\c_sharp\\mathgamemobile\\mathgamemobile\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F668A40-3618-403A-ABDD-C86D8A92D271}|MathGameMobile\\MathGameMobile.csproj|solutionrelative:mathgamemobile\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.manifest",
+              "DocumentMoniker": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "MathGameMobile\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "MathGameMobile\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-04-16T23:52:48.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "MathGameMobile\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "MathGameMobile\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-16T23:52:42.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pgMainPage.xaml.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Main\\pgMainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MathGameMobile\\Main\\pgMainPage.xaml.cs",
+              "ToolTip": "D:\\C_Sharp\\MathGameMobile\\MathGameMobile\\Main\\pgMainPage.xaml.cs",
+              "RelativeToolTip": "MathGameMobile\\Main\\pgMainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T22:27:34.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

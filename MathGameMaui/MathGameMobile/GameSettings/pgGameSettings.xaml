@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.NewPage1"
+             NavigationPage.HasBackButton="False">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior />
+    </Shell.BackButtonBehavior>
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="10">
+
+            <Label Text="How many questions would you like to answer?"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="6"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+                <Entry x:Name="enNumberOfQuesation"
+                       Placeholder="Enter number of questions"
+                       Keyboard="Numeric"
+                       ReturnType="Done"
+                       MaxLength="3" />
+            </Border>
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="10"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Select Question Level:"
+                           FontAttributes="Bold"
+                           FontSize="16" />
+                    <RadioButton Content="Easy" IsChecked="True" x:Name="rbEasy" />
+                    <RadioButton Content="Medium" x:Name="rbMed" />
+                    <RadioButton Content="Hard" x:Name="rbHard" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Stroke="{AppThemeBinding Light=Gray, Dark=White}"
+                    StrokeThickness="1"
+                    Padding="10"
+                    BackgroundColor="{AppThemeBinding Light=White, Dark=#222}">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Select Operation Type:"
+                           FontAttributes="Bold"
+                           FontSize="16" />
+                    <RadioButton Content="Addition" IsChecked="True" x:Name="rbAdd" />
+                    <RadioButton Content="Subtraction" x:Name="rbSub" />
+                    <RadioButton Content="Multiplication" x:Name="rbMult" />
+                    <RadioButton Content="Division" x:Name="rbDiv" />
+                    <RadioButton Content="Mixed" x:Name="rbMix" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Button Text="Start Game"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="Button_Clicked_1">
+                <Button.Shadow>
+                    <Shadow Radius="10"
+                            Offset="5,5"
+                            Brush="Black"
+                            Opacity="0.4" />
+                </Button.Shadow>
+            </Button>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

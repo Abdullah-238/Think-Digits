@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\no@3x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\no@2x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\no.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\math0@3x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\math0@2x.png" />
+    <BundleResource Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-maccatalyst\resizetizer\r\math0.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>
